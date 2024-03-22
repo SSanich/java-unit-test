@@ -1,3 +1,9 @@
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+import static org.junit.Assert.assertEquals;
+
 @RunWith(Parameterized.class) // Напиши аннотацию для параметризованных тестов
 public class CheckIsAdultTest {
 	
